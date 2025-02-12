@@ -1,0 +1,20 @@
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependencias (si usas Node.js)
+node_modules/
+package-lock.json
+
+# Ignorar archivos del editor
+.vscode/
+.idea/
+*.log
+
+# Ignorar archivos de compilación
+dist/
+build/
+
+# Ignorar imágenes grandes o backups
+*.psd
+*.zip
