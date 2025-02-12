@@ -22,8 +22,51 @@
     text-align: center;
   }
 
+  .cta-button {
+    margin-top: 2rem;
+  }
+
   .partner-benefits {
     grid-template-columns: repeat(3, 15rem) !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.5rem !important;
+    top: 12% !important;
+  }
+
+  .cta-button {
+    width: 50% !important;
+  }
+
+  .partner-benefits {
+    grid-template-rows: repeat(3, 20rem) !important;
+    grid-template-columns: 75% !important;
+    row-gap: 2rem !important;
+  }
+
+  .logo-negro {
+    z-index: 1;
+    width: 20rem !important;
+    display: block !important;
+    position: absolute;
+    bottom: -10%;
+    left: 12%;
+  }
+
+  .foto-empleado2 {
+    display: block !important;
+    width: 10rem;
+    z-index: 1;
+    position: absolute;
+    right: 10%;
+  }
+
+  .subtitle {
+    font-size: 3.5rem !important;
+    margin-left: 0.5rem;
   }
 }
 
@@ -74,7 +117,7 @@ h1 {
 
 .logo {
   z-index: 1;
-  width: 15rem;
+  width: 20rem;
   height: auto;
   position: absolute;
   right: 40%;
@@ -185,7 +228,6 @@ footer {
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
-  gap: 2rem;
 }
 
 .buttons-footer {
