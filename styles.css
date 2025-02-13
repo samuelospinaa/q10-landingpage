@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
+:root {
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  --button-color: #5a2600;
+}
 /* animacion con scroll */
 @keyframes appear {
   from {
@@ -74,6 +79,7 @@
 
 body {
   font-family: "DM Sans", serif;
+  background-color: white;
 }
 
 h1 {
@@ -175,6 +181,7 @@ h1 {
 .themed-text {
   color: rgb(255, 155, 41);
   margin-top: 0;
+  text-align: center;
 }
 
 .benefits-section {
@@ -221,6 +228,7 @@ article {
   justify-content: center;
   align-items: center;
   flex-direction: column-reverse;
+  color: rgb(0, 0, 17);
 }
 
 article:hover {
