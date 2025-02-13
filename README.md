@@ -8,7 +8,7 @@ Este proyecto es una prueba técnica para el puesto de Desarrollador Frontend. S
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Opcional si es necesario para interactividad), en este caso no se utilizo al no ser encesario, pero s epodria utilizar en caso de que se busque almacenar informacion de contactos o una landing page mas dinamica**
+- **JavaScript (Opcional si es necesario para interactividad), en este caso no se utilizo al no ser encesario, pero se podria utilizar en caso de que se busque almacenar informacion de contactos o una landing page mas dinamica**
 
 ## Estructura del Proyecto
 
@@ -22,13 +22,15 @@ Este proyecto es una prueba técnica para el puesto de Desarrollador Frontend. S
 ```
 
 ## Instalación y Uso
-
-1. Clona el repositorio:
+1. En este caso decidi itulizar GitHub Pages para desplegar el proyecto
+   y asi hacer mas facil y dinamica la experiencia
+   
+3. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/q10-partners.git
    ```
-2. Abre el archivo `index.html` en tu navegador.
-3. Para modificar los estilos, edita `styles.css`.
+4. Abre el archivo `index.html` en tu navegador.
+5. Para modificar los estilos, edita `styles.css`.
 
 ## Características Implementadas
 
